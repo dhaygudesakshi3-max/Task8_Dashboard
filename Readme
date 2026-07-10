@@ -1,0 +1,89 @@
+# 📊 Task 8 - Sales Performance Dashboard
+
+## 📌 Objective
+
+The objective of this project is to create an interactive Sales Dashboard using Power BI to analyze sales performance by month, region, and category. The dashboard provides business insights through visualizations and allows users to filter data using a slicer.
+
+---
+
+## 🛠️ Tools Used
+
+- Power BI Desktop
+- CSV Dataset (Superstore Sales)
+- GitHub
+
+---
+
+## 📂 Dataset
+
+Dataset Used: Superstore Sales Dataset
+
+Key Columns:
+- Order Date
+- Region
+- Category
+- Sales
+- Customer Name
+- Product Name
+- Segment
+- State
+- City
+
+---
+
+## 📋 Dashboard Features
+
+- 📈 Line Chart – Sales Trend by Month-Year
+- 📊 Bar Chart – Sales by Region
+- 🍩 Donut Chart – Sales by Category
+- 💰 KPI Card – Total Sales
+- 🎛️ Region Slicer for interactive filtering
+
+---
+
+## 🔄 Data Preparation
+
+The following preprocessing steps were performed:
+
+- Imported the CSV dataset into Power BI
+- Verified data types
+- Converted **Order Date** to Date format
+- Created a **Month-Year** column using DAX
+- Built interactive visuals
+- Applied formatting for a clean dashboard layout
+
+---
+
+## 💡 Key Insights
+
+1. The West region generated the highest sales.
+2. Technology contributed the highest share of total sales.
+3. Sales varied across different months, showing seasonal trends.
+4. The Region slicer allows users to compare sales performance interactively.
+
+---
+
+## 📁 Repository Structure
+
+```
+task-8-sales-dashboard/
+│── Task_8_Sales_Dashboard.pbix
+│── Superstore.csv
+│── dashboard.png
+│── insights.txt
+└── README.md
+```
+
+---
+
+## 🎯 Outcome
+
+This project demonstrates how Power BI can be used to transform raw sales data into an interactive dashboard that supports business decision-making through visual analytics.
+
+---
+
+## 👩‍💻 Author
+
+**Sakshi Dhaygude**
+
+Data Analytics Internship - Task 8
